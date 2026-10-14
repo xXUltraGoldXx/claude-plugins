@@ -21,7 +21,7 @@ Auf der Shell: `claude plugin marketplace add xXUltraGoldXx/claude-plugins` und 
 
 ## Hinweise
 
-- **self-lern**: Lerndatei standardmäßig `~/.claude/self-lern/LERNEN.md` (änderbar per `SELF_LERN_DATEI`). Fehlt sie, läuft der Hook ohne Fehler und meldet nur „Noch keine Eintraege“. Die CLI liegt in `bin/` des Plugins; Aufruf bei Bedarf als `python3 <Plugin-Ordner>/bin/self-lern`.
+- **self-lern**: Lerndatei standardmäßig `~/.claude/self-lern/LERNEN.md` (änderbar per `SELF_LERN_DATEI`). Fehlt sie, läuft der Hook ohne Fehler und meldet nur „Noch keine Eintraege“. Die CLI liegt bei aktivem Plugin auf dem PATH (`bin/`); claude.ai/Cowork installieren Plugins mit `bin/` nicht.
 - **coding-workflow**: Einrichtung mit `/coding-workflow:cw-install` (Name, Standardgröße).
 - **stil**: enthält keine Stildaten. Die Skills nutzen die öffentliche [stil-bibliothek](https://github.com/xXUltraGoldXx/stil-bibliothek) (Umgebungsvariable `STIL_BIBLIOTHEK` oder `git clone` nach `~/.claude/stil-bibliothek`, nach Rückfrage).
 

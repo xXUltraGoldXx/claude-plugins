@@ -15,4 +15,4 @@ Set up the `coding-workflow` skill for this user. Reply in English.
 {"name": "<Name>", "default_size": "auto"}
 ```
 
-7. Confirm briefly with the path and the stored values. Note: change it any time by running `/cw-install` again.
+7. Confirm briefly with the path and the stored values. Note: change it any time by running `/coding-workflow:cw-install` (short form `/cw-install`) again.

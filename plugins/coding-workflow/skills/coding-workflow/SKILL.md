@@ -13,7 +13,7 @@ It is deactivated only by an explicit instruction from the user, for example "wo
 
 ## Configuration
 
-The `/cw-install` command creates the file `coding-workflow.json`:
+The `/coding-workflow:cw-install` command (short form `/cw-install`) creates the file `coding-workflow.json`:
 
 ```json
 {"name": "Max", "default_size": "auto"}
@@ -21,7 +21,7 @@ The `/cw-install` command creates the file `coding-workflow.json`:
 
 - Global file: `~/.claude/coding-workflow.json`. A file `.claude/coding-workflow.json` in the project overrides it.
 - At the start of the first task of a session, the project file is read first, then the global file (a missing file is not an error).
-- `name` is the form of address. If it is missing (also in the file), the skill points the user to `/cw-install` once per session and addresses them neutrally until then. As a fallback, a name from the user's `CLAUDE.md` may be used.
+- `name` is the form of address. If it is missing (also in the file), the skill points the user to `/coding-workflow:cw-install` (short form `/cw-install`) once per session and addresses them neutrally until then. As a fallback, a name from the user's `CLAUDE.md` may be used.
 - `default_size`: `auto` (default when the file is missing) means the skill picks the level per task itself. `small`, `medium` or `large` is the starting point; for a clearly different task the skill may deviate, with a one-line reason. The rule "level large only after explicit confirmation" always applies: moving up to large is only proposed, never adopted silently.
 
 ## Ground rules
