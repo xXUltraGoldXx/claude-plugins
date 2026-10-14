@@ -1,8 +1,11 @@
 {
   "name": "self-lern",
   "description": "Append-only Lerndatei: Merksaetze beim Sessionstart laden, nach jeder Aufgabe Rueckschau anhaengen (Skill, SessionStart-Hook, CLI).",
-  "version": "1.0.0",
-  "author": { "name": "Alexander (xXUltraGoldXx)", "url": "https://github.com/xXUltraGoldXx" },
+  "version": "1.0.1",
+  "author": {
+    "name": "Alexander (xXUltraGoldXx)",
+    "url": "https://github.com/xXUltraGoldXx"
+  },
   "license": "MIT",
   "homepage": "https://github.com/xXUltraGoldXx/claude-self-lern",
   "repository": "https://github.com/xXUltraGoldXx/claude-self-lern"
