@@ -1,0 +1,9 @@
+{
+  "name": "coding-workflow",
+  "description": "Token-effizienter Entwicklungs-Workflow mit drei Stufen (klein/mittel/gross), Planung, TODO/Analyse/Context-Pflege und /cw-install.",
+  "version": "1.0.0",
+  "author": { "name": "Alexander (xXUltraGoldXx)", "url": "https://github.com/xXUltraGoldXx" },
+  "license": "MIT",
+  "homepage": "https://github.com/xXUltraGoldXx/coding-workflow",
+  "repository": "https://github.com/xXUltraGoldXx/coding-workflow"
+}

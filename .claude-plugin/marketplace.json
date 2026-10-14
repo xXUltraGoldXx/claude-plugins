@@ -1,0 +1,10 @@
+{
+  "name": "ultragold",
+  "description": "Claude-Code-Plugins von Alexander (xXUltraGoldXx)",
+  "owner": { "name": "Alexander (xXUltraGoldXx)", "url": "https://github.com/xXUltraGoldXx" },
+  "plugins": [
+    { "name": "self-lern", "source": "./plugins/self-lern", "description": "Append-only Lerndatei mit SessionStart-Hook und CLI", "version": "1.0.0", "license": "MIT", "homepage": "https://github.com/xXUltraGoldXx/claude-self-lern" },
+    { "name": "coding-workflow", "source": "./plugins/coding-workflow", "description": "Token-effizienter Entwicklungs-Workflow (klein/mittel/gross)", "version": "1.0.0", "license": "MIT", "homepage": "https://github.com/xXUltraGoldXx/coding-workflow" },
+    { "name": "stil", "source": "./plugins/stil", "description": "Design-Stile und Architekturen aus der stil-bibliothek", "version": "1.0.0", "license": "MIT", "homepage": "https://github.com/xXUltraGoldXx/stil-bibliothek" }
+  ]
+}

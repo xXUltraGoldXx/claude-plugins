@@ -1,0 +1,9 @@
+{
+  "name": "stil",
+  "description": "Skills stil und projekt: Design-Stile und Architekturen aus der offenen stil-bibliothek (wird per git clone nachgeladen).",
+  "version": "1.0.0",
+  "author": { "name": "Alexander (xXUltraGoldXx)", "url": "https://github.com/xXUltraGoldXx" },
+  "license": "MIT",
+  "homepage": "https://github.com/xXUltraGoldXx/stil-bibliothek",
+  "repository": "https://github.com/xXUltraGoldXx/stil-bibliothek"
+}
